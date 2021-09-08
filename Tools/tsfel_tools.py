@@ -1,5 +1,5 @@
-from tools.processing_tools_final import chunk_data, mean_norm, loadfeaturesbydomain_sub
-import tools.multiprocess_tools as mpt
+from Tools.processing_tools_final import chunk_data, mean_norm, loadfeaturesbydomain_sub
+import Tools.multiprocess_tools as mpt
 
 import numpy as np
 

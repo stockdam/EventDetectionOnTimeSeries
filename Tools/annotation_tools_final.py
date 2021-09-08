@@ -1,7 +1,7 @@
-from tools.load_tools import load_Json
-from tools.tsfel_tools import load_featuresbydomain, featuresTsfelMat
-from tools.processing_tools_final import normalize_feature_sequence_z
-from tools.tsfel_tools import chunk_data
+from Tools.load_tools import load_Json
+from Tools.tsfel_tools import load_featuresbydomain, featuresTsfelMat
+from Tools.processing_tools_final import normalize_feature_sequence_z
+from Tools.tsfel_tools import chunk_data
 
 from sklearn.metrics.pairwise import euclidean_distances
 

@@ -1,6 +1,6 @@
-from tools.annotation_tools_final import *
-from tools.load_tools import loadH5
-from tools.plot_tools import *
+from Tools.annotation_tools_final import *
+from Tools.load_tools import loadH5
+from Tools.plot_tools import *
 
 all_signals1 = loadH5("sig_example.h5")
 
