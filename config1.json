@@ -37,7 +37,6 @@
   "spec_entropy"
 ],
 "not_used": [
-
   "temp_sumabsdiff",
   "temp_abs_energy",
   "temp_centroid",

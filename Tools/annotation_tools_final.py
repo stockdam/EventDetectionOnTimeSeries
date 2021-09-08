@@ -206,9 +206,6 @@ def compute_novelty_SSM(S, kernel=None, L=10, var=0.5, exclude=False):
 def PeriodicEventDetection(signal, time_scale, perc_overlap, fs):
     print("extract features")
     feat_Mat, new_fs = ExtractFeatureMatrix(signal, fs, time_scale, perc_overlap=perc_overlap)
-    print(np.shape(feat_Mat["allfeatures"]))
-    plt.imshow(feat_Mat["allfeatures"], aspect="auto")
-    plt.show()
 
     print("Computing SSM")
     # Extract Novelty Function from the Self-Similarity Matrix computed with the X_pca
